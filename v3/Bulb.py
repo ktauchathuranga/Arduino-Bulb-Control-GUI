@@ -9,7 +9,6 @@ app = QtWidgets.QApplication(sys.argv)
 window = loader.load('bulb.ui', None)
 window.textBrowser.setText('OFF')
 
-#dfdfffdf
 def disconnect():
     if window.pButton3.clicked:
         window.pButton2.clicked.connect(arduinoBoard.close())
