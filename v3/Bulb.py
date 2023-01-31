@@ -15,7 +15,6 @@ def disconnect():
         window.pButton2.clicked.connect(arduinoBoard.close())
         window.textBrowser2.setText("Port Disconnected")
 
-#ccccccccccccccccc
 def pinAction():
     global arduinoBoard
     port = str(window.spinBox.value())
