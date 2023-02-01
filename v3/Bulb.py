@@ -8,7 +8,9 @@ loader = QUiLoader()
 app = QtWidgets.QApplication(sys.argv)
 window = loader.load('bulb.ui', None)
 # window.textBrowser.setText('OFF')
-portNotOpened = window.textBrowserStatus.setText("Port Not Opened")
+
+def portNotOpened():
+    window.textBrowserStatus.setText("Port Not Opened")
 
 
 def disconnect():
@@ -44,7 +46,7 @@ def pinAction():
     #             ardSigFunction("0")
     #             window.textBrowser0.setText('OFF')
     #     else:
-    #         portNotOpened
+    #         portNotOpened()
     #
     # def action1(data):
     #     if arduinoBoard.isOpen():
@@ -55,7 +57,7 @@ def pinAction():
     #             ardSigFunction("0")
     #             window.textBrowser1.setText('OFF')
     #     else:
-    #         portNotOpened
+    #         portNotOpened()
 
     def action2(data):
         if arduinoBoard.isOpen():
@@ -66,7 +68,7 @@ def pinAction():
                 ardSigFunction("22")
                 window.textBrowser2.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action3(data):
         if arduinoBoard.isOpen():
@@ -77,7 +79,7 @@ def pinAction():
                 ardSigFunction("33")
                 window.textBrowser3.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action4(data):
         if arduinoBoard.isOpen():
@@ -88,7 +90,7 @@ def pinAction():
                 ardSigFunction("44")
                 window.textBrowser4.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action5(data):
         if arduinoBoard.isOpen():
@@ -99,7 +101,7 @@ def pinAction():
                 ardSigFunction("55")
                 window.textBrowser5.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action6(data):
         if arduinoBoard.isOpen():
@@ -110,7 +112,7 @@ def pinAction():
                 ardSigFunction("66")
                 window.textBrowser6.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action7(data):
         if arduinoBoard.isOpen():
@@ -121,7 +123,7 @@ def pinAction():
                 ardSigFunction("77")
                 window.textBrowser7.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action8(data):
         if arduinoBoard.isOpen():
@@ -132,7 +134,7 @@ def pinAction():
                 ardSigFunction("88")
                 window.textBrowser8.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action9(data):
         if arduinoBoard.isOpen():
@@ -143,7 +145,7 @@ def pinAction():
                 ardSigFunction("99")
                 window.textBrowser9.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action10(data):
         if arduinoBoard.isOpen():
@@ -154,7 +156,7 @@ def pinAction():
                 ardSigFunction("1010")
                 window.textBrowser10.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action11(data):
         if arduinoBoard.isOpen():
@@ -165,7 +167,7 @@ def pinAction():
                 ardSigFunction("1111")
                 window.textBrowser11.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action12(data):
         if arduinoBoard.isOpen():
@@ -176,7 +178,7 @@ def pinAction():
                 ardSigFunction("1212")
                 window.textBrowser12.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     def action13(data):
         if arduinoBoard.isOpen():
@@ -187,7 +189,7 @@ def pinAction():
                 ardSigFunction("1313")
                 window.textBrowser13.setText('OFF')
         else:
-            portNotOpened
+            portNotOpened()
 
     # window.pBotton0.clicked.connect(action0)
     # window.pBotton1.clicked.connect(action1)
