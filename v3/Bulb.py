@@ -7,16 +7,16 @@ loader = QUiLoader()
 
 app = QtWidgets.QApplication(sys.argv)
 window = loader.load('bulb.ui', None)
-# window.textBrowser.setText('OFF')
+
 
 def portNotOpened():
-    window.textBrowserStatus.setText("Port Not Opened")
+    window.textBrowserStatus.setText("Port Not Opened!")
 
 
 def disconnect():
     if window.pButtonD.clicked:
         window.pButtonC.clicked.connect(arduinoBoard.close())
-        window.textBrowserStatus.setText("Port Disconnected")
+        window.textBrowserStatus.setText("Port Disconnected!")
 
 
 def pinAction():
@@ -27,37 +27,15 @@ def pinAction():
         arduinoBoard = serial.Serial(portDetail, 9600)
 
     except:
-        window.textBrowserStatus.setText('Wrong Port or Board Not Connected')
+        window.textBrowserStatus.setText('Wrong Port or Board Not Connected!')
         return
     ardRead = arduinoBoard.readline().decode().strip()
     window.textBrowserStatus.setText(ardRead)
     window.pButtonD.clicked.connect(disconnect)
+
     def ardSigFunction(data):
         addingLine = data + "\n"
         arduinoBoard.write(addingLine.encode())
-
-
-    # def action0(data):
-    #     if arduinoBoard.isOpen():
-    #         if data is True:
-    #             ardSigFunction("1")
-    #             window.textBrowser0.setText('ON')
-    #         else:
-    #             ardSigFunction("0")
-    #             window.textBrowser0.setText('OFF')
-    #     else:
-    #         portNotOpened()
-    #
-    # def action1(data):
-    #     if arduinoBoard.isOpen():
-    #         if data is True:
-    #             ardSigFunction("1")
-    #             window.textBrowser1.setText('ON')
-    #         else:
-    #             ardSigFunction("0")
-    #             window.textBrowser1.setText('OFF')
-    #     else:
-    #         portNotOpened()
 
     def action2(data):
         if arduinoBoard.isOpen():
