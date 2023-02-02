@@ -117,8 +117,14 @@
           <bold>true</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>Enter</string>
+        </property>
         <property name="text">
          <string>Connect</string>
+        </property>
+        <property name="shortcut">
+         <string>Return</string>
         </property>
        </widget>
       </item>
@@ -132,8 +138,14 @@
         <bold>true</bold>
        </font>
       </property>
+      <property name="toolTip">
+       <string>Space</string>
+      </property>
       <property name="text">
        <string>Disconnect</string>
+      </property>
+      <property name="shortcut">
+       <string>Space</string>
       </property>
      </widget>
     </item>
@@ -178,7 +190,7 @@
       </font>
      </property>
      <property name="text">
-      <string>D5</string>
+      <string>D3</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_4">
@@ -204,7 +216,7 @@
       </font>
      </property>
      <property name="text">
-      <string>D3</string>
+      <string>D5</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_6">
@@ -250,11 +262,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>1</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>1</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -271,11 +289,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>2</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>2</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -292,11 +316,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>3</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>3</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -313,11 +343,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>4</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>4</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -334,11 +370,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>5</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>5</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -355,11 +397,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>6</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>6</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -575,11 +623,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>7</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>7</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -596,11 +650,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>8</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>8</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -617,11 +677,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>9</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>9</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -638,11 +704,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>/</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>/</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -659,11 +731,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>*</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>*</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
@@ -680,11 +758,17 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="toolTip">
+         <string>-</string>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="shortcut">
+         <string>-</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
