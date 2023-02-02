@@ -23,11 +23,11 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Bulb</string>
+   <string>AD12</string>
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>bulb.png</normaloff>bulb.png</iconset>
+    <normaloff>mainLogo.png</normaloff>mainLogo.png</iconset>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>
