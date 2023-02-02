@@ -127,6 +127,10 @@
         <property name="text">
          <string>Connect</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>greenCheck.png</normaloff>greenCheck.png</iconset>
+        </property>
         <property name="shortcut">
          <string>Return</string>
         </property>
@@ -147,6 +151,10 @@
       </property>
       <property name="text">
        <string>Disconnect</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>warning.png</normaloff>warning.png</iconset>
       </property>
       <property name="shortcut">
        <string>Space</string>
@@ -275,11 +283,20 @@
         <property name="text">
          <string>Press</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>
+          <disabledoff>green.jpg</disabledoff>green.jpg</iconset>
+        </property>
         <property name="shortcut">
          <string>1</string>
         </property>
         <property name="checkable">
          <bool>true</bool>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
         </property>
        </widget>
       </item>
@@ -301,6 +318,11 @@
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>2</string>
@@ -329,6 +351,11 @@
         <property name="text">
          <string>Press</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
+        </property>
         <property name="shortcut">
          <string>3</string>
         </property>
@@ -355,6 +382,12 @@
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>
+          <disabledoff>red.jpg</disabledoff>green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>4</string>
@@ -383,6 +416,11 @@
         <property name="text">
          <string>Press</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
+        </property>
         <property name="shortcut">
          <string>5</string>
         </property>
@@ -409,6 +447,11 @@
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>6</string>
@@ -636,6 +679,11 @@
         <property name="text">
          <string>Press</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
+        </property>
         <property name="shortcut">
          <string>7</string>
         </property>
@@ -662,6 +710,11 @@
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>8</string>
@@ -690,6 +743,11 @@
         <property name="text">
          <string>Press</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
+        </property>
         <property name="shortcut">
          <string>9</string>
         </property>
@@ -716,6 +774,11 @@
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>/</string>
@@ -744,6 +807,11 @@
         <property name="text">
          <string>Press</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
+        </property>
         <property name="shortcut">
          <string>*</string>
         </property>
@@ -770,6 +838,11 @@
         </property>
         <property name="text">
          <string>Press</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>green.jpg</normaloff>
+          <normalon>red.jpg</normalon>green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>-</string>
