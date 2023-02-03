@@ -27,7 +27,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>mainLogo.png</normaloff>mainLogo.png</iconset>
+    <normaloff>media/mainLogo.png</normaloff>media/mainLogo.png</iconset>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>
@@ -129,7 +129,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>greenCheck.png</normaloff>greenCheck.png</iconset>
+          <normaloff>media/greenCheck.png</normaloff>media/greenCheck.png</iconset>
         </property>
         <property name="shortcut">
          <string>Return</string>
@@ -154,7 +154,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>warning.png</normaloff>warning.png</iconset>
+        <normaloff>media/warning.png</normaloff>media/warning.png</iconset>
       </property>
       <property name="shortcut">
        <string>Space</string>
@@ -285,9 +285,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>
-          <disabledoff>green.jpg</disabledoff>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>1</string>
@@ -321,8 +320,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>2</string>
@@ -353,8 +352,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>3</string>
@@ -385,9 +384,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>
-          <disabledoff>red.jpg</disabledoff>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>4</string>
@@ -418,8 +416,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>5</string>
@@ -450,8 +448,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>6</string>
@@ -681,8 +679,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>7</string>
@@ -713,8 +711,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>8</string>
@@ -745,8 +743,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>9</string>
@@ -777,8 +775,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>/</string>
@@ -809,8 +807,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>*</string>
@@ -841,8 +839,8 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>green.jpg</normaloff>
-          <normalon>red.jpg</normalon>green.jpg</iconset>
+          <normaloff>media/green.jpg</normaloff>
+          <normalon>media/red.jpg</normalon>media/green.jpg</iconset>
         </property>
         <property name="shortcut">
          <string>-</string>
