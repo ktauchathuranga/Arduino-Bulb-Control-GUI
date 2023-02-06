@@ -24,7 +24,7 @@ def pinAction():
     port = str(window.spinBox.value())
     portDetail = "COM" + port
     try:
-        arduinoBoard = serial.Serial(portDetail, 9600)
+        arduinoBoard = serial.Serial(portDetail, 76800)
 
     except:
         window.textBrowserStatus.setText('Wrong Port or Board Not Connected!')

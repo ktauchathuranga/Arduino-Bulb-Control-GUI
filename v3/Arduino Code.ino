@@ -4,7 +4,7 @@ void setup() {
   for (int i=2; i<=13 ; i++){
     pinMode(i, OUTPUT);
   }
-  Serial.begin(9600);
+  Serial.begin(76800);
   Serial.println("Connection Success!");
   // put your setup code here, to run once:
 
