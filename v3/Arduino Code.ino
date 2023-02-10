@@ -1,14 +1,27 @@
 const unsigned int maxMessageLength = 12;
 
 void setup() {
+
+  // should use this when relay logic reversed and for avoid bootup ON OFF mess
+  // digitalWrite(7, HIGH);
+  
   for (int i=2; i<=13 ; i++){
     pinMode(i, OUTPUT);
   }
   Serial.begin(115200);
   Serial.println("Connection Success!");
-  // put your setup code here, to run once:
 
 }
+
+// reverse the gui button state (change LOW to HIGH and so on)
+void pinHigh(int pin) {
+  digitalWrite(pin, HIGH);
+}
+
+void pinLow(int pin) {
+  digitalWrite(pin, LOW);  
+}
+
 
 void loop() {
   while (Serial.available() > 0) {
@@ -27,76 +40,76 @@ void loop() {
       messagePos = 0;
 
       if (myString == "2") {
-        digitalWrite(2, HIGH);
+        pinHigh(2);
       }
       else if (myString == "22") {
-        digitalWrite(2, LOW);
+        pinLow(2);
       }
       else if (myString == "3") {
-        digitalWrite(3, HIGH);
+        pinHigh(3);
       }
       else if (myString == "33") {
-        digitalWrite(3, LOW);
+        pinLow(3);
       }
       else if (myString == "4") {
-        digitalWrite(4, HIGH);
+        pinHigh(4);
       }
       else if (myString == "44") {
-        digitalWrite(4, LOW);
+        pinLow(4);
       }
       else if (myString == "5") {
-        digitalWrite(5, HIGH);
+        pinHigh(5);
       }
       else if (myString == "55") {
-        digitalWrite(5, LOW);
+        pinLow(5);
       }
       else if (myString == "6") {
-        digitalWrite(6, HIGH);
+        pinHigh(6);
       }
       else if (myString == "66") {
-        digitalWrite(6, LOW);
+        pinLow(6);
       }
       else if (myString == "7") {
-        digitalWrite(7, HIGH);
+        pinHigh(7);
       }
       else if (myString == "77") {
-        digitalWrite(7, LOW);
+        pinLow(7);
       }
       else if (myString == "8") {
-        digitalWrite(8, HIGH);
+        pinHigh(8);
       }
       else if (myString == "88") {
-        digitalWrite(8, LOW);
+        pinLow(8);
       }
       else if (myString == "9") {
-        digitalWrite(9, HIGH);
+        pinHigh(9);
       }
       else if (myString == "99") {
-        digitalWrite(9, LOW);
+        pinLow(9);
       }
       else if (myString == "10") {
-        digitalWrite(10, HIGH);
+        pinHigh(10);
       }
       else if (myString == "1010") {
-        digitalWrite(10, LOW);
+        pinLow(10);
       }
       else if (myString == "11") {
-        digitalWrite(11, HIGH);
+        pinHigh(11);
       }
       else if (myString == "1111") {
-        digitalWrite(11, LOW);
+        pinLow(11);
       }
       else if (myString == "12") {
-        digitalWrite(12, HIGH);
+        pinHigh(12);
       }
       else if (myString == "1212") {
-        digitalWrite(12, LOW);
+        pinLow(12);
       }
       else if (myString == "13") {
-        digitalWrite(13, HIGH);
+        pinHigh(13);
       }
       else if (myString == "1313") {
-        digitalWrite(13, LOW);
+        pinLow(13);
       }
 
       
